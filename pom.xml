@@ -6,10 +6,12 @@
     <groupId>com.spring.parent</groupId>
     <artifactId>spring-mvc-parent</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
     <modules>
+        <!-- Spring 基础环境搭建 -->
         <module>spring-mvc-base</module>
     </modules>
-    <packaging>pom</packaging>
 
     <!-- 依赖版本管理 -->
     <properties>
