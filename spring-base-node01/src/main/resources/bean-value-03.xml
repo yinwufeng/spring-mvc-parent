@@ -1,0 +1,75 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
+	http://www.springframework.org/schema/context
+	http://www.springframework.org/schema/context/spring-context-4.0.xsd
+	http://www.springframework.org/schema/aop
+	http://www.springframework.org/schema/aop/spring-aop-4.0.xsd
+	http://www.springframework.org/schema/mvc
+	http://www.springframework.org/schema/mvc/spring-mvc-4.0.xsd
+	http://www.springframework.org/schema/tx
+	http://www.springframework.org/schema/tx/spring-tx-4.0.xsd
+	http://www.springframework.org/schema/util
+	http://www.springframework.org/schema/util/spring-util-4.0.xsd">
+
+    <!-- 配置Employee公共属性 -->
+    <bean id="emp1" class="com.spring.mvc.entity.Employee">
+        <property name="name" value="cicada" />
+        <property name="id" value="1" />
+    </bean>
+    <bean id="emp2" class="com.spring.mvc.entity.Employee">
+        <property name="name" value="smile" />
+        <property name="id" value="2" />
+    </bean>
+    <!-- 配置Department属性 -->
+    <bean id="department" class="com.spring.mvc.entity.Department">
+        <!-- 普通属性值的注入 -->
+        <property name="name" value="IT部门" />
+        <!-- 给数组注入值 -->
+        <property name="empName">
+            <list>
+                <value>empName1</value>
+                <value>empName2</value>
+                <value>empName3</value>
+            </list>
+        </property>
+        <!-- 给List注入值：可以存放相同的值 -->
+        <property name="empList">
+            <list>
+                <ref bean="emp1"/>
+                <ref bean="emp2"/>
+                <ref bean="emp1"/>
+            </list>
+        </property>
+        <!-- 配置Set属性，相同的对象会被覆盖 -->
+        <property name="empSet">
+            <set>
+                <ref bean="emp1"/>
+                <ref bean="emp2"/>
+                <ref bean="emp1"/>
+            </set>
+        </property>
+        <!-- 配置Map属性,key相同的话，后面的值会覆盖前面的 -->
+        <property name="empMap">
+            <map>
+                <entry key="1" value-ref="emp1" />
+                <entry key="2" value-ref="emp2" />
+                <entry key="2" value-ref="emp1" />
+            </map>
+        </property>
+        <!-- 配置属性集合 -->
+        <property name="pp">
+            <props>
+                <prop key="pp1">Hello</prop>
+                <prop key="pp2">World</prop>
+            </props>
+        </property>
+    </bean>
+
+</beans>

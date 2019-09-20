@@ -11,6 +11,8 @@
     <modules>
         <!-- Spring 基础环境搭建 -->
         <module>spring-mvc-base</module>
+        <!-- Spring框架节点1：Bean的管理 -->
+        <module>spring-base-node01</module>
     </modules>
 
     <!-- 依赖版本管理 -->

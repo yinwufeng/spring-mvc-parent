@@ -1,6 +1,7 @@
 # 参考文章
 
-[Spring 框架基础(01)：核心组件总结，基础环境搭建](https://mp.weixin.qq.com/s?__biz=MzU4Njg0MzYwNw==&mid=2247484087&idx=1&sn=d325d551645f78e828399a096678e37e&chksm=fdf4560fca83df194b8f441ebcc18557f4d1f1845a1b5cb11ea3eac9a8bc1496c4ffd7d61651&token=90298312&lang=zh_CN#rd)
+[Spring 框架基础(01)：核心组件总结，基础环境搭建](https://mp.weixin.qq.com/s?__biz=MzU4Njg0MzYwNw==&mid=2247484087&idx=1&sn=d325d551645f78e828399a096678e37e&chksm=fdf4560fca83df194b8f441ebcc18557f4d1f1845a1b5cb11ea3eac9a8bc1496c4ffd7d61651&token=90298312&lang=zh_CN#rd)<br/>
+[Spring 框架基础(02)：Bean的装配，作用域，生命周期](https://mp.weixin.qq.com/s?__biz=MzU4Njg0MzYwNw==&mid=2247484103&idx=1&sn=4e15463e037eaff439fa0903125cd6a0&chksm=fdf4567fca83df69da6eef0ac11c7a82266b157f9fd2dc94db6062fdc9c976cad0490d8090ca&token=1881430360&lang=zh_CN#rd)<br/>
 
 持续更新中...
 
