@@ -13,6 +13,7 @@
         <module>spring-mvc-base</module>
         <!-- Spring框架节点1：Bean的管理 -->
         <module>spring-base-node01</module>
+        <module>spring-base-node02</module>
     </modules>
 
     <!-- 依赖版本管理 -->
