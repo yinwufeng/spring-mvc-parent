@@ -134,7 +134,7 @@
                 </includes>
             </resource>
         </resources>
-        <finalName>spring-base-node01</finalName>
+        <finalName>spring-base-node02</finalName>
     </build>
 
 </project>
