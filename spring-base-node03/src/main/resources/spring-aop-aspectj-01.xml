@@ -1,0 +1,42 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
+	http://www.springframework.org/schema/context
+	http://www.springframework.org/schema/context/spring-context-4.0.xsd
+	http://www.springframework.org/schema/aop
+	http://www.springframework.org/schema/aop/spring-aop-4.0.xsd
+	http://www.springframework.org/schema/mvc
+	http://www.springframework.org/schema/mvc/spring-mvc-4.0.xsd
+	http://www.springframework.org/schema/tx
+	http://www.springframework.org/schema/tx/spring-tx-4.0.xsd
+	http://www.springframework.org/schema/util
+	http://www.springframework.org/schema/util/spring-util-4.0.xsd">
+
+
+    <!-- 创建目标类 -->
+    <bean id="bookService" class="com.spring.mvc.service.impl.BookServiceImpl" />
+    <!-- 创建切面类 -->
+    <bean id="myAspect" class="com.spring.mvc.config.BookAopAspectJ" />
+    <!-- 配置AOP编程 -->
+    <aop:config>
+        <aop:aspect ref="myAspect">
+            <aop:pointcut expression="execution(* com.spring.mvc.service.impl.BookServiceImpl.*(..))" id="myPointCut"/>
+            <!-- 前置通知-->
+            <aop:before method="myBefore" pointcut-ref="myPointCut"/>
+            <!-- 后置通知 -->
+            <aop:after-returning method="myAfterReturning" pointcut-ref="myPointCut" returning="ret" />
+            <!-- 环绕通知 -->
+            <aop:around method="myAround" pointcut-ref="myPointCut"/>
+            <!-- 抛出异常 -->
+            <aop:after-throwing method="myAfterThrowing" pointcut-ref="myPointCut" throwing="e"/>
+            <!-- 最终通知 -->
+            <aop:after method="myAfter" pointcut-ref="myPointCut"/>
+        </aop:aspect>
+    </aop:config>
+</beans>
