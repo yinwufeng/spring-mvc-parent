@@ -16,6 +16,7 @@
         <module>spring-base-node02</module>
         <module>spring-base-node03</module>
         <module>spring-base-node04</module>
+        <module>spring-base-node05</module>
     </modules>
 
     <!-- 依赖版本管理 -->
