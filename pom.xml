@@ -9,13 +9,17 @@
     <packaging>pom</packaging>
 
     <modules>
-        <!-- Spring 基础环境搭建 -->
+        <!-- 基础环境搭建 -->
         <module>spring-mvc-base</module>
-        <!-- Spring框架节点1：Bean的管理 -->
+        <!-- Bean的管理 -->
         <module>spring-base-node01</module>
+        <!-- 核心思想IOC容器总结 -->
         <module>spring-base-node02</module>
+        <!-- AOP编程概念，几种实现方式 -->
         <module>spring-base-node03</module>
+        <!-- 事务管理机制，和实现方式 -->
         <module>spring-base-node04</module>
+        <!-- Mvc架构模式简介 -->
         <module>spring-base-node05</module>
     </modules>
 
