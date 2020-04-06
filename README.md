@@ -17,7 +17,7 @@ Spring 框架基础，环境配置，常用注解，Bean管理，事务，Mvc开
 
 ## 关于作者
 【<b>公众号：知了一笑</b>】    【<b><a href="https://www.zhihu.com/people/cicadasmile/columns">知乎专栏</a></b>】<br/>
-<img width="255px" height="255px" src="https://img2018.cnblogs.com/blog/1691717/201906/1691717-20190603213911854-1098366582.jpg"/><br/>
+<img width="255px" height="255px" src="https://avatars0.githubusercontent.com/u/50793885"/><br/>
 
 ## 推荐项目
 
