@@ -1,49 +1,41 @@
-## 阅读标签
+# spring-mvc
 
-【[Java基础](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzU4Njg0MzYwNw==&action=getalbum&album_id=1342230680016683009#wechat_redirect)】【[设计模式](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzU4Njg0MzYwNw==&action=getalbum&album_id=1709518416274833422#wechat_redirect)】【[结构与算法](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzU4Njg0MzYwNw==&action=getalbum&album_id=1709518416274833422#wechat_redirect)】【[Linux系统](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzU4Njg0MzYwNw==&action=getalbum&album_id=1334314473573744641#wechat_redirect)】【[数据库](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzU4Njg0MzYwNw==&action=getalbum&album_id=1376212870744358913#wechat_redirect)】<br/>
-【[分布式架构](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzU4Njg0MzYwNw==&action=getalbum&album_id=1327025063014596608#wechat_redirect)】【[微服务](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzU4Njg0MzYwNw==&action=getalbum&album_id=1460269376221200386#wechat_redirect)】【[大数据组件](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzU4Njg0MzYwNw==&action=getalbum&album_id=1701021199339667459#wechat_redirect)】【[SpringBoot进阶](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzU4Njg0MzYwNw==&action=getalbum&album_id=1425309486268661760#wechat_redirect)】【[Spring&Boot基础](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzU4Njg0MzYwNw==&action=getalbum&album_id=1461797173297135618#wechat_redirect)】<br/>
-【[数据分析](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzU4Njg0MzYwNw==&action=getalbum&album_id=1695231212027428866#wechat_redirect)】【[技术导图](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzU4Njg0MzYwNw==&action=getalbum&album_id=1506615482391511042#wechat_redirect)】【 [职场](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzU4Njg0MzYwNw==&action=getalbum&album_id=1719834087936278530#wechat_redirect)】
+## 1、仓库说明
 
-## 参考文章
+Spring+Mvc框架基础总结。
 
-|序号|文章标题|
-|:---:|:---|
-|01|[Spring框架基础：核心组件总结，基础环境搭建](https://mp.weixin.qq.com/s/kYetvxOuJhawAyRNxvo-qA)|
-|02|[Spring框架基础：Bean的装配，作用域，生命周期](https://mp.weixin.qq.com/s/AIXt2XjgzRGBZqPAknLNpw)|
-|03|[Spring框架基础：核心思想IOC容器总结，案例演示](https://mp.weixin.qq.com/s/BKNyWorBnoXa5_IhM63XPQ)|
-|04|[Spring框架基础：AOP编程概念，几种实现方式演示](https://mp.weixin.qq.com/s/kWubXXVIZwALbb7dPaJijw)|
-|05|[Spring框架基础：事务管理机制，和实现方式](https://mp.weixin.qq.com/s/VgqBJN09RuFbaxub7mOMBw)|
-|06|[Spring框架基础：Mvc架构模式简介，执行流程详解](https://mp.weixin.qq.com/s/jqv9qSiMDXtsk6ghmfAvxA)|
+## 2、分类文档
 
-持续更新中...
+- [核心组件总结，基础环境搭建](https://gitee.com/cicadasmile/butte-java-note/blob/master/doc/spring/mvc/M01、基础与环境搭建.md)
+- [Bean的装配，作用域，生命周期](https://gitee.com/cicadasmile/butte-java-note/blob/master/doc/spring/mvc/M02、Bean使用详解.md)
+- [核心思想IOC容器总结，案例演示](https://gitee.com/cicadasmile/butte-java-note/blob/master/doc/spring/mvc/M03、IOC控制反转.md)
+- [AOP编程概念，几种实现方式演示](https://gitee.com/cicadasmile/butte-java-note/blob/master/doc/spring/mvc/M04、AOP切面编程.md)
+- [事务管理机制，和实现方式](https://gitee.com/cicadasmile/butte-java-note/blob/master/doc/spring/mvc/M05、事务管理机制.md)
+- [Mvc架构模式简介，执行流程详解](https://gitee.com/cicadasmile/butte-java-note/blob/master/doc/spring/mvc/M06、MVC开发模式.md)
 
-## 项目简介
+## 3、关于作者
 
-Spring 框架基础，环境配置，常用注解，Bean管理，事务，Mvc开发模式等。
+| 有问题加：微信号↓ | 支持关注：公众号↓ |
+|----|-----|
+| <img width="300px" height="300px" src="https://images.gitee.com/uploads/images/2021/0828/182311_7c8ff7e3_5064118.jpeg"/>   |   <img width="300px" height="300px" src="https://images.gitee.com/uploads/images/2021/0828/182332_f1b13009_5064118.jpeg"/>  |
 
-## 关于作者
-<p align="left">
-<img src="https://raw.githubusercontent.com/cicadasmile/blog-article-catalog/d9affbe553a2f8bb9df59e54eeac691b67969328/blog-image/gzhinfo.svg" alt="公众号">
-<a href="https://gitee.com/cicadasmile"><img src="https://raw.githubusercontent.com/cicadasmile/blog-article-catalog/c17c866e6960b743e3c350be35bb76cf1fe5bf29/blog-image/gitee.svg" alt="码云"></a>
-<a href="https://www.zhihu.com/people/cicadasmile/columns"><img src="https://raw.githubusercontent.com/cicadasmile/blog-article-catalog/1c25aa84f894b441e34ef86b6335c451bec32cae/blog-image/zhihu.svg" alt="知乎"></a>
-<a href="https://www.jianshu.com/u/5a26c8e51f73"><img src="https://raw.githubusercontent.com/cicadasmile/blog-article-catalog/d9affbe553a2f8bb9df59e54eeac691b67969328/blog-image/jianshu.svg" alt="简书"></a>
-<a href="https://www.cnblogs.com/cicada-smile/"><img src="https://raw.githubusercontent.com/cicadasmile/blog-article-catalog/d9affbe553a2f8bb9df59e54eeac691b67969328/blog-image/bky.svg" alt="博客园"></a>
-<a href="https://blog.csdn.net/cicada_smile"><img src="https://raw.githubusercontent.com/cicadasmile/blog-article-catalog/d9affbe553a2f8bb9df59e54eeac691b67969328/blog-image/csdn.svg" alt="CSDN"></a>
-</p>
+## 4、仓库整合
 
-<img width="700px" height="270px" src="https://raw.githubusercontent.com/cicadasmile/blog-article-catalog/master/blog-image/img-gz.jpg"/><br/>
-
-
-## 推荐项目
-
-|序号|项目名称|GitHub地址|GitEE地址|推荐指数|
-|:---|:---|:---|:---|:---|
-|01|Java描述设计模式,算法,数据结构|[GitHub·点这里](https://github.com/cicadasmile/model-arithmetic-parent)|[GitEE·点这里](https://gitee.com/cicadasmile/model-arithmetic-parent)|☆☆☆☆☆|
-|02|Java基础、并发、面向对象、Web开发|[GitHub·点这里](https://github.com/cicadasmile/java-base-parent)|[GitEE·点这里](https://gitee.com/cicadasmile/java-base-parent)|☆☆☆☆|
-|03|SpringCloud微服务基础组件案例详解|[GitHub·点这里](https://github.com/cicadasmile/spring-cloud-base)|[GitEE·点这里](https://gitee.com/cicadasmile/spring-cloud-base)|☆☆☆|
-|04|SpringCloud微服务架构实战综合案例|[GitHub·点这里](https://github.com/cicadasmile/husky-spring-cloud)|[GitEE·点这里](https://gitee.com/cicadasmile/husky-spring-cloud)|☆☆☆☆☆|
-|05|SpringBoot框架基础应用入门到进阶|[GitHub·点这里](https://github.com/cicadasmile/spring-boot-base)|[GitEE·点这里](https://gitee.com/cicadasmile/spring-boot-base)|☆☆☆☆|
-|06|SpringBoot框架整合开发常用中间件|[GitHub·点这里](https://github.com/cicadasmile/middle-ware-parent)|[GitEE·点这里](https://gitee.com/cicadasmile/middle-ware-parent)|☆☆☆☆☆|
-|07|数据管理、分布式、架构设计基础案例|[GitHub·点这里](https://github.com/cicadasmile/data-manage-parent)|[GitEE·点这里](https://gitee.com/cicadasmile/data-manage-parent)|☆☆☆☆☆|
-|08|大数据系列、存储、组件、计算等框架|[GitHub·点这里](https://github.com/cicadasmile/big-data-parent)|[GitEE·点这里](https://gitee.com/cicadasmile/big-data-parent)|☆☆☆☆☆|
-
+| 仓库 | 描述 |
+|:---|:---|
+| [butte-java](https://gitee.com/cicadasmile/butte-java-note) |Java编程文档整理，基础、架构，大数据 |
+| [butte-frame](https://gitee.com/cicadasmile/butte-frame-parent) |微服务组件，中间件，常用功能二次封装 |
+| [butte-flyer](https://gitee.com/cicadasmile/butte-flyer-parent) |butte-frame二次浅封装，实践案例 |
+| [butte-auto](https://gitee.com/cicadasmile/butte-auto-parent) |Jenkins+Docker+K8S实现自动化持续集成 |
+| [java-base](https://gitee.com/cicadasmile/java-base-parent) | Jvm、Java基础、Web编程，JDK源码分析 |
+| [model-struct](https://gitee.com/cicadasmile/model-arithmetic-parent) | 设计模式、数据结构、算法 |
+| [data-manage](https://gitee.com/cicadasmile/data-manage-parent) | 架构设计，实践，数据管理、工具 |
+| [spring-mvc](https://gitee.com/cicadasmile/spring-mvc-parent) | Spring+Mvc框架基础总结 |
+| [spring-boot](https://gitee.com/cicadasmile/spring-boot-base) | SpringBoot2基础，应用、配置等 |
+| [middle-ware](https://gitee.com/cicadasmile/middle-ware-parent) | SpringBoot2进阶，整合常用中间件 |
+| [spring-cloud](https://gitee.com/cicadasmile/spring-cloud-base) | Spring+Ali微服务基础组件用法|
+| [cloud-shard](https://gitee.com/cicadasmile/cloud-shard-jdbc) | SpringCloud实现分库分表实时扩容 |
+| [husky-cloud](https://gitee.com/cicadasmile/husky-spring-cloud) | SpringCloud综合入门案例 |
+| [big-data](https://gitee.com/cicadasmile/big-data-parent) | Hadoop框架，大数据组件，数据服务 |
+| [mysql-base](https://gitee.com/cicadasmile/mysql-data-base) | MySQL数据库基础、进阶总结 |
+| [linux-system](https://gitee.com/cicadasmile/linux-system-base) | Linux系统基础，环境搭建、配置 |
